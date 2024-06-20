@@ -1,9 +1,9 @@
 local zenbox = {}
 
 zenbox.colors = {
-	dark0_hard = "#1b1b1b", -- 29-32-33
-	dark0 = "#1b1b1b", -- 40-40-40
-	dark0_soft = "#1b1b1b", -- 50-48-47
+	dark0_hard = "#1b1b1b", -- Actualizado
+	dark0 = "#1b1b1b", -- Actualizado
+	dark0_soft = "#1b1b1b", -- Actualizado
 	dark1 = "#3c3836", -- 60-56-54
 	dark2 = "#504945", -- 80-73-69
 	dark3 = "#665c54", -- 102-92-84
@@ -35,6 +35,15 @@ zenbox.colors = {
 	faded_purple = "#8f3f71", -- 143-63-113
 	faded_aqua = "#427b58", -- 66-123-88
 	faded_orange = "#af3a03", -- 175-58-3
+
+	light0_hard = "#f9f5d7", -- 249-245-215
+	light0 = "#fbf1c7", -- 253-244-193
+	light0_soft = "#f2e5bc", -- 242-229-188
+	light1 = "#ebdbb2", -- 235-219-178
+	light2 = "#d5c4a1", -- 213-196-161
+	light3 = "#bdae93", -- 189-174-147
+	light4 = "#a89984", -- 168-153-132
+	light4_256 = "#a89984", -- 168-153-132
 }
 
 local function set_highlight(group, color)
