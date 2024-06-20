@@ -68,6 +68,9 @@ zenbox.apply = function()
 	set_highlight("Statement", { fg = colors.bright_yellow })
 	set_highlight("Type", { fg = colors.bright_aqua })
 
+	-- Keywords
+	set_highlight("Keyword", { fg = colors.bright_orange }) -- Resaltado para palabras reservadas
+
 	-- UI Elements
 	set_highlight("LineNr", { fg = colors.dark3 })
 	set_highlight("CursorLine", { bg = colors.dark1 })
