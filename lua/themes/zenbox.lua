@@ -68,9 +68,6 @@ zenbox.apply = function()
 	set_highlight("Statement", { fg = colors.faded_orange }) -- if, else, for, while, return como faded_orange
 	set_highlight("Type", { fg = colors.bright_aqua })
 
-	-- Keywords específicos
-	set_highlight("Keyword", { fg = colors.faded_orange }) -- Palabras clave como if, else, for, while, return en faded_orange
-
 	-- UI Elements
 	set_highlight("LineNr", { fg = colors.dark3 })
 	set_highlight("CursorLine", { bg = colors.dark1 })
